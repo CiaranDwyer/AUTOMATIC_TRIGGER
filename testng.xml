@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.codewithciaran.Resources.listener"></listener>
+    </listeners>
+
+
+    <test name="Testing Sauce Labs !!">
+
+        <classes>
+            <class name="com.codewithciaran.Test_BaseSetup.Tests">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
